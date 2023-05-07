@@ -150,7 +150,7 @@ def diagnose():
         })
     except:
         return jsonify({
-            'status': 'error'
+            'status': 'error '
         })
 @app.route('/symptom-list', methods=['GET'])
 def symptom_list():
